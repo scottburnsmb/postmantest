@@ -6,5 +6,30 @@
     "description": "This is the test collection for Scott B. Github.",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
-  "item": []
+  "item": [
+    {
+      "_postman_id": "a212df01-d573-545f-ed42-ec7a7827abbd",
+      "name": "PricingOptions for location",
+      "request": {
+        "url": "{{baseUrl}}/locations/{{locationId}}/pricingOptions",
+        "method": "GET",
+        "header": [
+          {
+            "key": "API-Key",
+            "value": "{{apiKey}}",
+            "description": "",
+            "disabled": true
+          },
+          {
+            "key": "Authorization",
+            "value": "Basic {{affiliateClient}}",
+            "description": ""
+          }
+        ],
+        "body": {},
+        "description": ""
+      },
+      "response": []
+    }
+  ]
 }
