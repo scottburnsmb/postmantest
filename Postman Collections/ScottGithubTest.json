@@ -11,7 +11,15 @@
       "_postman_id": "c8e1c420-211d-f886-9599-47ed51c8aa85",
       "name": "Folder",
       "description": "",
-      "item": []
+      "item": [
+        {
+          "_postman_id": "d7f31cdc-5a0c-a08e-ab91-cf3ff3d4f834",
+          "name": "Subfolder",
+          "description": "",
+          "item": [],
+          "_postman_isSubFolder": true
+        }
+      ]
     },
     {
       "_postman_id": "a212df01-d573-545f-ed42-ec7a7827abbd",
